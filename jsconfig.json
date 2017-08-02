@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+    
+        "static"
+    ],
+    "include": [
+        "src/**/*",
+        "src/store/ui/uiStore.js",
+        "./*",
+        "main.js"
+    ]
+}

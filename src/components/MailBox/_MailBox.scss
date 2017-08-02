@@ -1,0 +1,102 @@
+.mailBox{
+// background:white;
+display:none;
+opacity:0;
+height:100%;
+width:100%;
+position:absolute;
+&.show{
+    display: block;
+    opacity: 1;
+}
+.messageSent{
+    display:none;
+    opacity:0;
+    &.show{
+        font-size:16px;
+        display:block;
+        opacity: 1;
+        padding:7px;
+        border-radius:5px;
+        background: #def2cb;
+        color: green;
+         border: 1px solid green;
+        margin:13px;
+        position: relative;
+        width:620px;
+        left:10px;
+    }
+}
+.to{
+    font-size:15px;
+    width: 620px;
+    margin:13px;
+    padding:5px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius:5px;
+    border:0;
+    height:30px;
+}
+.subject{
+    font-size:15px;
+width:620px;
+height:30px;
+margin:13px;
+padding:5px;
+border-radius:5px;
+border: 0.5px solid;
+border-color: rgba(196, 196, 196, 1);
+
+}
+.attachment{
+    color:blue;
+    font-size:15px;
+    position:relative;
+    left:15px;
+    top:15px;
+}
+.mailTo{
+    font-size:15px;
+    position: absolute;
+    &.show1{
+        top:16px;
+     left:16px;
+    }
+    &.show{
+        top:16px;
+        left:16px;
+    }
+}
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border:1px solid #5AB0DB;
+}
+.message{
+    font-size:15px;
+    width:620px;
+    height:120px;
+    padding:5px;
+    margin:13px;
+    border-radius:5px;
+background:white;
+
+}
+textarea:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border:1px solid #5AB0DB;
+}
+.sendMail{
+    margin:7px;
+    left:515px;
+    background:#2a6584;
+    border-radius:5px;
+    color: white;
+    padding: 5px;
+    width:110px;
+    font-size:16px;
+    position: absolute;
+}
+
+}
